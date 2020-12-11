@@ -1,0 +1,14 @@
+class Mobile { 
+public: 
+string brand; 
+string model; 
+int year; 
+} 
+int main() { 
+Mobile mobileObj1; 
+mobileObj1.brand = "Samsung "; 
+mobileObj1.model = "J7"; 
+mobileObj1.year = 2005 ; 
+cout << mobileObj1.brand << " " << mobileObj1.model << " " <<  mobileObj1.year << "\n"; 
+return 0; 
+} 
